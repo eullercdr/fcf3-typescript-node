@@ -8,7 +8,5 @@ services:
     tty: true
     ports:
       - 3009:3000
-    depends_on:
-      - db
     volumes:
       - .:/home/node/app
